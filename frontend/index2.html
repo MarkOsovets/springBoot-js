@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav>
+    <a href="#" id="nav-home">Главная</a>
+    |
+    <a href="#" id="nav-add">Добавить бронь</a>
+    |
+    <a href="#" id="nav-list">Список броней</a>
+</nav>
+
+
+<hr>
+
+<section id="home-section">
+    <h1>Добро пожаловать в систему бронирования</h1>
+    <p>Используйте навигацию выше, чтобы добавить или просмотреть брони.</p>
+</section>
+
+<!-- ===== ADD SECTION ===== -->
+<section id="add-section" style="display: none;">
+    <h2>Добавить бронь</h2>
+
+    <input id="userId" placeholder="userId">
+    <input id="roomId" placeholder="roomId">
+    <input id="startDate" type="date">
+    <input id="endDate" type="date">
+
+    <br><br>
+    <button id="add">Добавить</button>
+</section>
+
+<!-- ===== LIST SECTION ===== -->
+<section id="list-section" style="display: none;">
+    <h2>Фильтр</h2>
+
+    <input id="filterUserId" placeholder="userId (необязательно)">
+    <input id="filterRoomId" placeholder="roomId (необязательно)">
+    <button id="load">Загрузить</button>
+
+    <ul id="list"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

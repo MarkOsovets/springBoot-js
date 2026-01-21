@@ -1,0 +1,22 @@
+POST - http://localhost:8080/reservations -> {
+    "userId": 100,
+    "roomId": 55,
+    "startDate": "2026-03-01",
+    "enDate": "2026-04-18"
+} -> это пост запрос для добавления записи в БД
+
+GET - http://localhost:8080/reservations?userId=10&roomId=5&pageSize=5&pageNumber=0 
+-> запрос для получения списка фильтрованных броней (где userId и roomId являются необязательными)
+
+GET - http://localhost:8080/reservations/2 -> запрос для получения брони по ее id ${2}
+
+DELETE - http://localhost:8080/reservations/2 -> запрос для отмены бронирования тоже по id ${2}
+
+PUT - http://localhost:8080/reservations/13 -> {
+    "userId": 100,
+    "roomId": 55,
+    "startDate": "2026-03-01",
+    "enDate": "2026-04-18"
+} - запрос для обновления брони по id ${13}
+
+POST - http://localhost:8080/reservations/approved/13 -> запрос для подвреждения брони по id ${13}
