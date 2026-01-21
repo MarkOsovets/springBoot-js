@@ -2,8 +2,12 @@
 
 Небольшое приложение для управления бронями: REST API на Spring Boot и простой фронтенд (HTML/CSS/JS).
 
+## Пути
+-серверная часть -> /demo/src/main/java/simpleapp/demo 
+-frontend -> /frontend
+
 ## Что внутри
-- Backend: Spring Boot 3, Spring Web, Spring Data JPA, Bean Validation
+- Backend: Spring Boot 3, Spring Web, Spring Data JPA, Bean Validation 
 - БД: PostgreSQL
 - Frontend: статическая страница (`frontend/index2.html`) + JS для вызова API
 - CORS: разрешён origin `http://127.0.0.1:5500` (подходит для VS Code Live Server)
