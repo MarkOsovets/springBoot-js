@@ -3,7 +3,9 @@
 Небольшое приложение для управления бронями: REST API на Spring Boot и простой фронтенд (HTML/CSS/JS).
 
 ## Пути
+
 -серверная часть -> /demo/src/main/java/simpleapp/demo 
+
 -frontend -> /frontend
 
 ## Что внутри
