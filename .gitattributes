@@ -1,0 +1,10 @@
+# Приоритет языков
+*.java linguist-language=Java
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+
+# Игнорировать картинки в статистике
+*.png linguist-documentation
+*.jpg linguist-documentation
+*.jpeg linguist-documentation
