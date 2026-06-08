@@ -4,9 +4,9 @@
 
 ## Пути
 
--серверная часть -> /demo/src/main/java/simpleapp/demo 
+backend -> /demo/src/main/java/simpleapp/demo 
 
--frontend -> /frontend
+frontend -> /frontend
 
 ## Что внутри
 - Backend: Spring Boot 3, Spring Web, Spring Data JPA, Bean Validation 
